@@ -1,6 +1,6 @@
 node_modules
 settings.json
-static/js/jquery.min.js
+!settings.json.template
 APIKEY.txt
 bin/abiword.exe
 bin/node.exe
@@ -9,3 +9,10 @@ var/dirty.db
 bin/convertSettings.json
 *~
 *.patch
+src/static/js/jquery.js
+npm-debug.log
+*.DS_Store
+.ep_initialized
+*.crt
+*.key
+bin/etherpad-1.deb
